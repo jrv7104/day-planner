@@ -14,5 +14,6 @@ var hour = ["8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5
 
 //Save events where they will still be present when page refreshes
 
+var currentDay = document.getElementById("currentDay")
+currentDay.innerText = moment().format("dddd, MMMM Do YYYY");
 
-moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
